@@ -1,0 +1,53 @@
+.cardBross {
+    border: 1px solid;
+    width: 100%;
+    max-width: 400px;
+    margin: 40px;
+    padding: 3px 0px;
+}
+.cardBross .title {
+    background-color: #990000;
+    position: relative;
+    margin: 25px -20px;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+}
+.cardBross .title::before {
+    content: ' ';
+    position: absolute;
+    left: 0px;
+    top: -20px;
+    border: 10px solid;
+    border-color: transparent #5f0101 #5f0101 transparent;
+
+}
+.cardBross .texto {
+    padding: 10px;
+}
+.cardBross .texto input {
+    margin: 10px 5px;
+    height: 30px;
+    width: 95%;
+}
+.cardBross .texto button {
+    margin: 10px 5px;
+    height: 30px;
+    width: 97%;
+}
+.cardBross .texto label {
+    margin-left: 5px;
+}
+
+.cardBross .error {
+    margin: 10px 5px;
+    color: #5f0101;
+    text-align: center;
+}
+.cardBross .resposta {
+    margin: 10px 5px;
+    color: #5f0101;
+    font-weight: bold;
+    text-align: center;
+}
