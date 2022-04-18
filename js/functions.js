@@ -13,6 +13,7 @@ function limpaResposta() {
 function montaErro(mensagem) {
     document.querySelector('.cardBross .error').innerHTML  = mensagem;
 }
+
 calcularIMC.onclick = function(){
     limpaErro();
     var peso = document.getElementById('peso').value;
@@ -40,7 +41,7 @@ function calculaRetorno(imc) {
         mensagem = retorno[3];
     }
     
-    document.querySelector('.cardBross .resposta').innerHTML  = 'Seu IMC é ' + imc + ' - ' + mensagem;
+    document.querySelector('.cardBross .resposta').innerHTML  = 'Seu IMC &eacute ' + imc + ' - ' + mensagem;
 }
 
 var retorno = [
